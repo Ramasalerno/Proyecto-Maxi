@@ -1,0 +1,21 @@
+.barraNav{
+    background-color: black !important;
+    font-family: Monserrat;
+}
+
+.nav-link:hover{
+    color: #23FFD7 !important;
+}
+
+@media (min-width: 992px) {
+    .barraNav{
+        height: 100px;
+    }
+    .barraNav a{
+        margin-left: 50px;
+    }
+}
+
+.nav-link.active {
+    color: #23FFD7 !important;
+}

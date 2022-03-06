@@ -1,0 +1,41 @@
+.columnaHab {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tituloLenguajes {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #9D21FE;
+}
+
+.imgSvg:hover {
+    background: linear-gradient(180deg, #9D21FE 0%, #23FFD7 100%);
+    transition: .5s all;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    .gifHabilidades {
+        width: 100%;
+    }
+}
+
+.gifHabilidades {
+    width: 80%;
+}
+
+.devMobile {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 37px;
+    text-align: center;
+}

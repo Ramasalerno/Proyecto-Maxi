@@ -1,0 +1,31 @@
+.imgLaptop {
+    width: 100% !important;
+    margin-top: 5%;
+}
+
+@media (max-width: 600px) {
+    .imgLaptop {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 340px) {
+    .imgLaptop {
+        margin-top: 15%;
+
+    }
+}
+
+.absolute {
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 700px) {
+    .gifScroll {
+        width: 10%;
+    }
+}
