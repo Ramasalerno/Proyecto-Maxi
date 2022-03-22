@@ -12,8 +12,8 @@ export const Barra1 = () => {
     <Nav className="mx-auto">
       <Nav.Link href="#sobreMi">Sobre mí</Nav.Link>
       <Nav.Link href="#misHabilidades">Habilidades</Nav.Link>
-      <Nav.Link href="#">Proyectos</Nav.Link>
-      <Nav.Link href="#">Contacto</Nav.Link>
+      <Nav.Link href="#projects">Proyectos</Nav.Link>
+      <Nav.Link href="#contact">Contacto</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

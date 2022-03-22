@@ -1,7 +1,3 @@
-.columnaHab {
-    text-align: center;
-}
-
 h2 {
     text-align: center;
 }
@@ -24,7 +20,7 @@ h2 {
 
 @media (max-width: 700px) {
     .gifHabilidades {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
@@ -38,4 +34,28 @@ h2 {
     font-weight: normal;
     line-height: 37px;
     text-align: center;
+}
+
+
+.columna {
+
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.row {  
+    align-content: center !important;
+    justify-content: center !important;
+}
+
+.habNombre{
+    margin-top: 10px;
 }
